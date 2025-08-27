@@ -1,22 +1,66 @@
-### AL ###
-#Template for AL projects for Dynamics 365 Business Central
-#launch.json folder
-.vscode/
-#Cache folder
-.alcache/
-#Symbols folder
-.alpackages/
-#Snapshots folder
-.snapshots/
-#Testing Output folder
-.output/
-#Extension App-file
-*.app
-#Rapid Application Development File
-rad.json
-#Translation Base-file
-*.g.xlf
-#License-file
-*.flf
-#Test results file
-TestResults.xml
+# ============================
+# Java
+# ============================
+*.class
+*.jar
+*.war
+*.ear
+*.iml
+
+# ============================
+# Logs e temporários
+# ============================
+*.log
+*.tmp
+*.out
+*.swp
+*.DS_Store
+*.idea/
+*.vscode/
+*.project
+*.classpath
+*.settings/
+
+# ============================
+# Maven
+# ============================
+target/
+dependency-reduced-pom.xml
+
+# ============================
+# Eclipse
+# ============================
+.project
+.classpath
+.settings/
+
+# ============================
+# IntelliJ IDEA
+# ============================
+.idea/
+*.iws
+*.ipr
+*.iml
+out/
+
+# ============================
+# Arquivos do sistema
+# ============================
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ============================
+# Relatórios de Testes
+# ============================
+/allure-results/
+/allure-report/
+/test-output/          # Relatórios gerados pelo TestNG
+/surefire-reports/
+/cucumber-report.json
+
+# ============================
+# Arquivos de ambiente/local
+# ============================
+.env
+*.properties.local
